@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bartosz S - Personal Homepage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="darkmode.css">
+    <link rel="stylesheet" href="table.css">
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="section.css">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="image.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body class="body js-body">
+    <header class="header">Bartosz S</header>
+    <nav class="navigation">
+        <a class="navigation__link" href="#o-mnie">O mnie</a>
+        <a class="navigation__link" href="#muzyka">Muzyka</a>
+        <a class="navigation__link" href="#js">JS</a>
+    </nav>
+    <section>
+        <img class="image" src="https://freeimghost.net/images/2022/11/05/profilowec42613aecafa3cc0.png" alt="catImg">
+    </section>
+    <main>
+        <section id="o-mnie" class="section">
+            <h2 class="section__header">O mnie</h2>
+            <article>
+                <p class="section__paragraph">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque laborum magnam corporis mollitia
+                    voluptates dolorum iusto ullam, eius facere. Porro perspiciatis non magnam cumque neque, optio
+                    eveniet asperiores recusandae similique.
+                </p>
+            </article>
+        </section>
+        <section id="muzyka" class="section">
+            <h2 class="section__header">Muzyka</h2>
+            <table class="table">
+                <caption class="table__caption">Moje ulubione utwory</caption>
+                <tr>
+                    <th scope="col" class="table__cell table__cell--header">Wykonawca</th>
+                    <th scope="col" class="table__cell table__cell--header">Tytuł</th>
+                    <th scope="col" class="table__cell table__cell--header">Album</th>
+                </tr>
+                <tr>
+                    <th scope="row" class="table__cell table__cell--header" rowspan="2">Lordofon</th>
+                    <td class="table__cell">Kobayashi</td>
+                    <td class="table__cell" rowspan="2">Koło</td>
+                </tr>
+                <tr>
+                    <td class="table__cell">Figaro</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="table__cell table__cell--header" rowspan="2">Feno, Ramzes</th>
+                    <td class="table__cell">Zapisałem Adres Typa</td>
+                    <td class="table__cell" rowspan="2">Którędy Wychodzi Się Na Ludzi</td>
+                </tr>
+                <tr>
+                    <td class="table__cell">Nikotyna I Farby</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="table__cell table__cell--header">Chivas</th>
+                    <td class="table__cell">koleżanko mojej byłej</td>
+                    <td class="table__cell">młody say10</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="table__cell table__cell--header" rowspan="3">Two Door Cinema Club</th>
+                    <td class="table__cell">Changing of the Seasons</td>
+                    <td class="table__cell">Changing of the Seasons</td>
+                </tr>
+                <tr>
+                    <td class="table__cell">Lavender</td>
+                    <td class="table__cell">Gameshow (Deluxe edition)</td>
+                </tr>
+                <tr>
+                    <td class="table__cell">Something Good Can Work - Original Demo</td>
+                    <td class="table__cell">Lost Songs (Found)</td>
+                </tr>
+            </table>
+        </section>
+        <section id="js" class="section">
+            <button class="section__button js-button"><span class="button__text js-button__text">Wyłącz</span> ciemny
+                motyw</button>
+        </section>
+    </main>
+    <footer class="footer">© Copyright by 7</footer>
+</body>
+
+</html>

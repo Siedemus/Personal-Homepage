@@ -1,0 +1,17 @@
+.section__button {
+    border-radius: 15px;
+    padding: 15px;
+    color: rgb(15, 61, 62);
+    border: none;
+    font-family: 'Roboto mono', sans-serif;
+    display: block;
+    margin: 10px auto;
+}
+
+.section__button:hover {
+    background-color: rgb(75, 142, 143);
+}
+
+.section__button:active {
+    background-color: rgb(132, 198, 199);
+}

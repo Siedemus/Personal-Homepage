@@ -1,0 +1,28 @@
+.table__cell--header.table__cell--header {
+    border: 2px rgb(241, 241, 241) solid;
+    padding: 15px;
+    color: rgb(241, 241, 241);
+}
+
+.table {
+    border: 2px rgb(241, 241, 241) solid;
+    border-collapse: collapse;
+}
+
+.table__cell {
+    border: 2px rgb(241, 241, 241) solid;
+    padding: 5px;
+}
+
+.table__caption {
+    padding: 10px;
+    border: 2px rgb(241, 241, 241) solid;
+    border-bottom: none;
+    font-weight: bolder;
+}
+
+.table__cell:hover {
+    color: crimson;
+}
+
+

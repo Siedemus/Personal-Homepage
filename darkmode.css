@@ -1,0 +1,15 @@
+.darkMode.darkMode {
+    background-color: rgb(199, 197, 187);
+}
+
+.darkMode .navigation__link {
+    color: rgb(15, 61, 62);
+}
+
+.darkMode .navigation__link:active {
+    color: crimson;
+}
+
+.darkMode .navigation__link:hover {
+    color: rgb(25, 112, 113);
+}

@@ -1,0 +1,7 @@
+.image {
+    display: block;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 28px 23px 26px -6px rgba(15, 61, 62, 0.75);
+    border: 5px solid rgb(15, 61, 62);
+}

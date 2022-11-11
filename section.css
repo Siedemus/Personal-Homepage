@@ -1,0 +1,17 @@
+.section {
+    max-width: 400px;
+    background-color: rgb(15, 61, 62);
+    padding: 10px;
+    border-radius: 15px;
+    margin: 100px auto;
+}
+
+.section__header {
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 700px;
+}
+
+.section__paragraph {
+    padding: 15px;
+    font-size: 20px;
+}

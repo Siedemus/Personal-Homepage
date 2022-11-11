@@ -1,0 +1,18 @@
+.body {
+    background-color: rgb(16, 15, 15);
+    max-width: 1000px;
+    margin: auto;
+    color: rgb(241, 241, 241);
+    font-family: 'Lato', sans-serif;
+    box-shadow: -2px 0px 109px 26px rgba(15,61,62,0.43);
+    border: 2px rgb(15, 61, 62) solid;
+}
+
+.header {
+    text-align: center;
+    font-family: 'Roboto Mono', sans-serif;
+    background-color: rgb(15, 61, 62);
+    padding: 20px;
+    font-size: 35px;
+    border-radius: 0px 0px 25px 25px;
+}
