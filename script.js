@@ -3,7 +3,7 @@
         console.log("Hello there");
     };
 
-    const oneChangeBackgroundClick = () => {
+    const toggleBackground = () => {
         const body = document.querySelector(".js-body");
         const button_text = document.querySelector(".js-button__text");
 
@@ -18,7 +18,7 @@
 
     const init = () => {
         const changeBackgroundButton = document.querySelector(".js-button");
-        changeBackgroundButton.addEventListener("click", oneChangeBackgroundClick);
+        changeBackgroundButton.addEventListener("click", toggleBackground);
         welcome();
     };
 
