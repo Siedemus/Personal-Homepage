@@ -5,6 +5,7 @@
 
 .navigation__link {
     text-decoration: none;
+    text-transform: capitalize;
     color: rgb(241, 241, 241);
     padding: 10px;
     padding-bottom: 4px;

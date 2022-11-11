@@ -2,6 +2,7 @@
     border: 2px rgb(241, 241, 241) solid;
     padding: 15px;
     color: rgb(241, 241, 241);
+    text-transform: capitalize;
 }
 
 .table {
@@ -19,6 +20,7 @@
     border: 2px rgb(241, 241, 241) solid;
     border-bottom: none;
     font-weight: bolder;
+    text-transform: capitalize;
 }
 
 .table__cell:hover {

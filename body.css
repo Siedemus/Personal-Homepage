@@ -15,4 +15,5 @@
     padding: 20px;
     font-size: 35px;
     border-radius: 0px 0px 25px 25px;
+    text-transform: capitalize;
 }

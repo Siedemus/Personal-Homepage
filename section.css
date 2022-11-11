@@ -9,6 +9,7 @@
 .section__header {
     font-family: 'Roboto Mono', sans-serif;
     font-weight: 700px;
+    text-transform: capitalize;
 }
 
 .section__paragraph {
