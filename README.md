@@ -10,6 +10,8 @@ Demo: [Click here!](https://siedemus.github.io/Personal-Homepage/)
 
 Personal-Homepage is simple website which have some information about me. *(in Polish Language)*
 
+![website](images/Animation.gif)
+
 ## Technologies I used
 
 - HTML
