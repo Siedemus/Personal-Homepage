@@ -7,12 +7,7 @@
 
     const changeButtonText = () => {
         const button_text = document.querySelector(".js-button__text");
-
-        if (body.classList.contains("darkMode")) {
-            button_text.innerText = "Włącz"
-        } else {
-            button_text.innerText = "Wyłącz"
-        };
+        button_text.innerText = body.classList.contains("darkmode") ? "Włącz" : "Wyłącz";
     }
 
     const toggleBackground = () => {
